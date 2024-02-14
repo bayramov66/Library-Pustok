@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-color: #33A0D9;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;
+    width: 350px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+ul li{
+    list-style: none;
+    padding: 0px 56px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+
+.items{
+    padding: 10px 20px;
+    display: flex;
+}
+
+#items{
+    margin-left: auto;
+}
+
+#btn{
+    padding: 5px 20px;
+    font-size: 1.5em;
+    margin: 0 56px;
+    color: black;
+    background-color: white;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+section{
+    border: 2px solid black;
+    height: 615px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./bac.jpg) center no-repeat;
+}
+
+.container{
+    height: 350px;
+    width:300px;
+}
+
+#heading{
+    font-size: 2.4em;
+}
+
+.password{
+    width: 300px;
+}
+#err{
+    color: red;
+    margin: 10px 0;
+    font-family: cursive;
+}
+.reset{
+    width: 300px;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: black;
+    color: wheat;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.button{
+    padding-top: 40px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    display: flex;
+    height: 100px;
+    background-color: #33A0D9;
+}
+
+.wpass{
+border: 2px solid red;
+}
+
+input{
+    width: 300px;
+}
